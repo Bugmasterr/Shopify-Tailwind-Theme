@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -34,12 +43,15 @@
         "text",
         "button"
       ],
+      "custom_css": [
+        "#Banner-template--18679777263859__image_banner {max-height: 250px; margin: auto;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/nathan-dumlao-xvacAs7KyM4-unsplash_1.jpg",
+        "image": "shopify://shop_images/banner.jpg",
         "image_position": 50,
         "image_position_2": 50,
         "image_overlay_opacity": 30,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -51,7 +63,7 @@
         "twcss_image": "",
         "twcss_heading": "lg:twcss-px-48",
         "twcss_text": "twcss-text-white lg:twcss-px-48",
-        "twcss_button": "twcss-uppercase twcss-bg-gradient-to-r twcss-from-indigo-500 twcss-from-10% twcss-via-sky-500 twcss-via-30% twcss-to-emerald-500 twcss-to-90% hover:twcss-bg-gradient-to-r hover:twcss-from-indigo-500 hover:twcss-via-purple-500 hover:twcss-to-pink-500"
+        "twcss_button": "hover:twcss-bg-gradient-to-r hover:twcss-from-indigo-500 hover:twcss-via-purple-500 hover:twcss-to-pink-500"
       }
     },
     "rich_text": {
@@ -75,7 +87,7 @@
         "text_mR43G9": {
           "type": "text",
           "settings": {
-            "text": "<p>Easily adjust your store's design with the power of Tailwind's pre-configured classes. Tweak font sizes, colors, spacing, and more for all screen sizes!<\/p>"
+            "text": "<p>Easily adjust your store's design with the power of Tailwind's pre-configured classes. Tweak font sizes, colors, spacing, and more for all screen sizes!</p>"
           }
         }
       },
@@ -110,7 +122,7 @@
         "text_jdGaJj": {
           "type": "text",
           "settings": {
-            "text": "<p>Shopify sections have tons of options to configure, but what happens when you want to tweak something more yourself without a developer? 🤔<\/p>",
+            "text": "<p>Shopify sections have tons of options to configure, but what happens when you want to tweak something more yourself without a developer? 🤔</p>",
             "text_style": "body"
           }
         },
@@ -129,7 +141,6 @@
         "caption_UDyAqE"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/brittney-strange-4uPkNzC4ATM-unsplash.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -156,7 +167,6 @@
         "slide_y3AtkB": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/nathan-dumlao-xvacAs7KyM4-unsplash_1.jpg",
             "heading": "Sometimes you want to use uppercase characters",
             "heading_size": "h1",
             "subheading": "But don't want the all-caps copy to adversely affect SEO",
@@ -174,7 +184,6 @@
         "slide_nNGqeC": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brittney-strange-4uPkNzC4ATM-unsplash.jpg",
             "heading": "Easily make your copy uppercase",
             "heading_size": "h1",
             "subheading": "With the tailwind class 'twcss-uppercase'",
@@ -223,13 +232,13 @@
         "text_yTh76z": {
           "type": "text",
           "settings": {
-            "text": "<p>Center content over an image and darken the image for contrast with the overlaying text using this hefty combination of Tailwind classes:<\/p>"
+            "text": "<p>Center content over an image and darken the image for contrast with the overlaying text using this hefty combination of Tailwind classes:</p>"
           }
         },
         "text_XFRpC6": {
           "type": "text",
           "settings": {
-            "text": "<p>'twcss-backdrop-brightness-50 twcss-flex twcss-justify-center twcss-items-center twcss-drop-shadow twcss-text-5xl twcss-absolute twcss-inset-0 twcss-text-white twcss-text-center'<\/p>"
+            "text": "<p>'twcss-backdrop-brightness-50 twcss-flex twcss-justify-center twcss-items-center twcss-drop-shadow twcss-text-5xl twcss-absolute twcss-inset-0 twcss-text-white twcss-text-center'</p>"
           }
         }
       },
