@@ -33,7 +33,7 @@
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "twcss_container": "twcss-bg-gradient-to-r twcss-from-gray-500 twcss-from-10% twcss-via-gray-400 twcss-via-30% twcss-to-gray-500 twcss-to-90%",
+        "twcss_container": "twcss-bg-gradient-to-r twcss-from-gblue twcss-from-10% twcss-via-blue-500 twcss-via-20% twcss-to-gblue twcss-to-100%",
         "twcss_text": "twcss-font-sans"
       }
     },
@@ -51,8 +51,8 @@
         "enable_language_selector": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
         "twcss_container": "",
         "twcss_text_logo": "",
         "twcss_toplevel_nav_link": "",

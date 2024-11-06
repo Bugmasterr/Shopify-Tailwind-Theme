@@ -15,15 +15,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Customize More Than Ever Before",
-            "heading_size": "h0"
+            "heading": "General Equipment and Supply",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Tailwind CSS classes can be added to specific elements within each default Dawn section. The possibilities are endless!",
-            "text_style": "body"
+            "text": "Remanufactured Excellence",
+            "text_style": "subtitle"
           }
         },
         "button": {
@@ -44,19 +44,21 @@
         "button"
       ],
       "custom_css": [
-        "#Banner-template--18679777263859__image_banner {max-height: 250px; margin: auto;}"
+        "#Banner-template--18679777263859__image_banner {max-height: 250px; margin: auto;}",
+        "img {max-height: 40rem;max-width: 100$;margin: auto;}",
+        ".banner__content {margin-top: 5px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/banner.jpg",
         "image_position": 50,
         "image_position_2": 50,
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 50,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
@@ -64,49 +66,6 @@
         "twcss_heading": "lg:twcss-px-48",
         "twcss_text": "twcss-text-white lg:twcss-px-48",
         "twcss_button": "hover:twcss-bg-gradient-to-r hover:twcss-from-indigo-500 hover:twcss-via-purple-500 hover:twcss-to-pink-500"
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Use Tailwind within the theme files...or just in the admin...or both! You do you.",
-            "heading_size": "h1"
-          }
-        },
-        "caption_qJtC7W": {
-          "type": "caption",
-          "settings": {
-            "caption": "Writing custom CSS is hard.",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
-        "text_mR43G9": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Easily adjust your store's design with the power of Tailwind's pre-configured classes. Tweak font sizes, colors, spacing, and more for all screen sizes!</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "caption_qJtC7W",
-        "text_mR43G9"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "twcss_heading": "twcss-bg-clip-text twcss-text-transparent twcss-bg-gradient-to-r twcss-from-indigo-500 twcss-from-10% twcss-via-sky-500 twcss-via-30% twcss-to-emerald-500 twcss-to-90%",
-        "twcss_text": "",
-        "twcss_caption": "twcss-text-4xl twcss-my-16",
-        "twcss_button": ""
       }
     },
     "image_with_text_rNzEU9": {
@@ -386,7 +345,6 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
     "image_with_text_rNzEU9",
     "slideshow_8aNFFw",
     "rich_text_RFp7Vz",
